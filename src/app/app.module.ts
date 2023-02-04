@@ -4,18 +4,17 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { ServerComponent } from './server/server.component';
-import { BasilComponent } from './basil/basil.component';
+import { ServersComponent } from './servers/servers.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     ServerComponent,
-    BasilComponent,],
+    ServersComponent,],
   imports: [
     BrowserModule,
     FormsModule,
-
 
   ],
   providers: [],
